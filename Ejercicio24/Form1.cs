@@ -17,10 +17,6 @@ namespace Ejercicio24
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnSimular_Click(object sender, EventArgs e)
         {
@@ -31,6 +27,16 @@ namespace Ejercicio24
             int precioLimiteSuperior = int.Parse(txtPrecioLimiteSuperior.Text);
             int precioLimiteInferior = int.Parse(txtPrecioLimiteInferior.Text);
 
+            Simulacion sim = new Simulacion(cantidadHoras, cantidadLlegadasXHora, atencionLimiteSuperior, atencionLimiteInferior, precioLimiteSuperior, precioLimiteInferior);
+            Vector[] vect = sim.ejecutar();
+
+            dataGridEventos.DataSource = sim.getDtVector(vect);
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

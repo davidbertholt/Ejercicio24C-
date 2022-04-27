@@ -8,24 +8,28 @@ namespace Ejercicio24
 {
     internal class Vector
     {
-        private double reloj;
         private string evento;
+        private double reloj;
         private Cliente cliente;
         private Cliente[] colaClientes;
         private int largoCola;
         public double tiempoEntreLlegada;
         public double tiempoProximaLlegada;
-        private Reparador[] reparadores;
+        private Reparador reparador1;
+        private Reparador reparador2;
+        private Reparador reparador3;
 
 
-        public Vector (double rel, string ev, Cliente cli, Cliente[] colaCli, int largoC, double entre, double prox, Reparador[] rep )
+        public Vector (string ev, double rel, Cliente cli, Cliente[] colaCli, int largoC, double entre, double prox, Reparador rep1, Reparador rep2, Reparador rep3)
         {
             reloj = rel;
             evento = ev;
             cliente = cli;
             colaClientes = colaCli;
             largoCola = largoC;
-            reparadores = rep;
+            reparador1 = rep1;
+            reparador2 = rep2;
+            reparador3 = rep3;
             tiempoEntreLlegada = entre;
             tiempoProximaLlegada = prox;
         
@@ -51,9 +55,17 @@ namespace Ejercicio24
         {
             get { return largoCola;}
         }
-        public Reparador[] Reparadores
+        public Reparador Reparador1
         {
-            get { return reparadores; }
+            get { return reparador1; }
+        }
+        public Reparador Reparador2
+        {
+            get { return reparador2; }
+        }
+        public Reparador Reparador3
+        {
+            get { return reparador3; }
         }
         public double TiempoEntreLlegada
         {

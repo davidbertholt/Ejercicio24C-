@@ -102,6 +102,7 @@
             this.txtPrecioLimiteInferior.Name = "txtPrecioLimiteInferior";
             this.txtPrecioLimiteInferior.Size = new System.Drawing.Size(100, 20);
             this.txtPrecioLimiteInferior.TabIndex = 4;
+            this.txtPrecioLimiteInferior.Text = "100"; 
             // 
             // label5
             // 
@@ -118,6 +119,7 @@
             this.txtPrecioLimiteSuperior.Name = "txtPrecioLimiteSuperior";
             this.txtPrecioLimiteSuperior.Size = new System.Drawing.Size(100, 20);
             this.txtPrecioLimiteSuperior.TabIndex = 5;
+            this.txtPrecioLimiteSuperior.Text = "400";
             // 
             // groupBox2
             // 
@@ -145,6 +147,7 @@
             this.txtCantidadLlegadasXHora.Name = "txtCantidadLlegadasXHora";
             this.txtCantidadLlegadasXHora.Size = new System.Drawing.Size(100, 20);
             this.txtCantidadLlegadasXHora.TabIndex = 0;
+            this.txtCantidadLlegadasXHora.Text = "7";
             // 
             // groupBox4
             // 
@@ -174,6 +177,7 @@
             this.txtAtencionLimiteInferior.Name = "txtAtencionLimiteInferior";
             this.txtAtencionLimiteInferior.Size = new System.Drawing.Size(100, 20);
             this.txtAtencionLimiteInferior.TabIndex = 4;
+            this.txtAtencionLimiteInferior.Text = "13";
             // 
             // label8
             // 
@@ -190,6 +194,7 @@
             this.txtAtencionLimiteSuperior.Name = "txtAtencionLimiteSuperior";
             this.txtAtencionLimiteSuperior.Size = new System.Drawing.Size(100, 20);
             this.txtAtencionLimiteSuperior.TabIndex = 5;
+            this.txtAtencionLimiteSuperior.Text = "17"; ;
             // 
             // dataGridEventos
             // 
@@ -225,6 +230,7 @@
             this.txtCantidadHoras.Name = "txtCantidadHoras";
             this.txtCantidadHoras.Size = new System.Drawing.Size(100, 20);
             this.txtCantidadHoras.TabIndex = 0;
+            this.txtCantidadHoras.Text = "1";
             // 
             // btnSalir
             // 
@@ -234,6 +240,7 @@
             this.btnSalir.TabIndex = 10;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Form1
             // 
@@ -250,7 +257,6 @@
             this.Controls.Add(this.btnSimular);
             this.Name = "Form1";
             this.Text = "Ejercicio 24";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

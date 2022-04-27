@@ -9,13 +9,13 @@ namespace Ejercicio24
     internal class Reparador
     {
     private string estado;
-    private Cliente cliente;
+    private int cliente;
     private double tiempoAtencion;
     private double tiempoProximaAtencion;
     private double precio;
     private double gastos;
     
-        public Reparador (string est, Cliente cli, double tiempoA, double tiempoProximaA, double p, double g
+        public Reparador (string est, int cli, double tiempoA, double tiempoProximaA, double p, double g
 )
         {
             estado = est;
@@ -31,7 +31,7 @@ namespace Ejercicio24
             {
                 get { return estado; }
             }
-        public Cliente Cliente
+        public int Cliente
             {
                 get { return cliente;  }
             }
