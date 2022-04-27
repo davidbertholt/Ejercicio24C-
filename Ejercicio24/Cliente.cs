@@ -20,7 +20,14 @@ namespace Ejercicio24
         }
         public string Estado
         {
-            get { return estado; }
+            get
+            { 
+                return estado;
+            }
+            set
+            {
+                estado = value;
+            }
         }
         public int Orden
         {

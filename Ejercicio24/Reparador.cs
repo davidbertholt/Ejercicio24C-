@@ -28,28 +28,70 @@ namespace Ejercicio24
         }
 
         public string Estado
+        {
+            get 
             {
-                get { return estado; }
+                return estado; 
             }
+            set
+            {
+                estado = value;
+            }
+        }
         public int Cliente
+        {
+            get
             {
-                get { return cliente;  }
+                return cliente; 
             }
+            set
+            {
+                cliente = value;
+            }
+        }
         public double TiempoAtencion
-            {
-                get { return tiempoAtencion; }
+        {
+            get 
+            { 
+                return tiempoAtencion;
             }
+            set
+            {
+                tiempoAtencion = value;
+            }
+        }
         public double TiempoProximaAtencion
+        {
+            get 
             {
-                get { return tiempoProximaAtencion; }
+                return tiempoProximaAtencion;
             }
+            set
+            {
+                tiempoProximaAtencion= value;   
+            }
+        }
         public double Precio
-            {
-                get { return precio; }
+        {
+            get 
+            { 
+                return precio;
             }
+            set
+            {
+                precio = value;
+            }
+        }
         public double Gastos
         {
-            get { return gastos; }
+            get 
+            {
+                return gastos;
+            }
+            set
+            {
+                gastos = value;
+            }
         }
 
 

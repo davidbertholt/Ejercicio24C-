@@ -37,43 +37,113 @@ namespace Ejercicio24
 
         public double Reloj
         {
-            get { return reloj;}
+            get
+            {
+                return reloj;
+            }
+            set
+            { 
+                reloj = value;
+            }
         }
         public string Evento
         {
-            get { return evento;}
+            get
+            {
+                return evento;
+            }
+            set 
+            {
+                evento = value;
+            }
         }
         public Cliente Cliente
         {
-            get { return cliente;}
+            get 
+            {
+                return cliente;
+            }
+            set
+            {
+                cliente = value;
+            }
         }
         public Cliente[] ColaClientes
         {
-            get { return colaClientes;}
+            get 
+            {
+                return colaClientes;
+            }
+            set
+            {
+                colaClientes = value;
+            }
         }
         public int LargoCola
         {
-            get { return largoCola;}
+            get 
+            {
+                return largoCola;
+            }
+            set
+            {
+                largoCola = value;
+            }
         }
         public Reparador Reparador1
         {
-            get { return reparador1; }
+            get
+            { 
+                return reparador1;
+            }
+            set
+            {
+                reparador1 = value;
+            }
         }
         public Reparador Reparador2
         {
-            get { return reparador2; }
+            get
+            {
+                return reparador2;
+            }
+            set
+            {
+                reparador2 = value;
+            }
         }
         public Reparador Reparador3
         {
-            get { return reparador3; }
+            get
+            {
+                return reparador3;
+            }
+            set
+            {
+                reparador3 = value;
+            }
         }
         public double TiempoEntreLlegada
         {
-            get { return tiempoEntreLlegada; }
+            get 
+            {
+                return tiempoEntreLlegada;
+            }
+            set
+            {
+                tiempoEntreLlegada = value;
+            }
         }
         public double TiempoProximaLlegada
         {
-            get { return tiempoProximaLlegada; }
+            get 
+            {
+                return tiempoProximaLlegada;
+            }
+            set
+            {
+                tiempoProximaLlegada = value;
+            }
         }
     }
 }

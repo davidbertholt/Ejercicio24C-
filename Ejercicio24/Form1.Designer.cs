@@ -194,7 +194,7 @@
             this.txtAtencionLimiteSuperior.Name = "txtAtencionLimiteSuperior";
             this.txtAtencionLimiteSuperior.Size = new System.Drawing.Size(100, 20);
             this.txtAtencionLimiteSuperior.TabIndex = 5;
-            this.txtAtencionLimiteSuperior.Text = "17"; ;
+            this.txtAtencionLimiteSuperior.Text = "17";
             // 
             // dataGridEventos
             // 
