@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ejercicio24
 {
-    internal class Vector
+    public class Vector
     {
         private string evento;
         private double reloj;
-        private Cliente cliente;
-        private Cliente[] colaClientes;
+        private int cliente;
+        //private List<Cliente> colaClientes;
         private int largoCola;
         public double tiempoEntreLlegada;
         public double tiempoProximaLlegada;
@@ -20,18 +20,18 @@ namespace Ejercicio24
         private Reparador reparador3;
 
 
-        public Vector (string ev, double rel, Cliente cli, Cliente[] colaCli, int largoC, double entre, double prox, Reparador rep1, Reparador rep2, Reparador rep3)
+        //public Vector (string ev, double rel, int cli, List<Cliente> colaCli, int largoC, double entre, double prox, Reparador rep1, Reparador rep2, Reparador rep3)
+        public Vector (string ev, double rel, int cli, int largoC, double entre, double prox, Reparador rep1, Reparador rep2, Reparador rep3)
         {
-            reloj = rel;
-            evento = ev;
-            cliente = cli;
-            colaClientes = colaCli;
-            largoCola = largoC;
-            reparador1 = rep1;
-            reparador2 = rep2;
-            reparador3 = rep3;
-            tiempoEntreLlegada = entre;
-            tiempoProximaLlegada = prox;
+            this.reloj = rel;
+            this.evento = ev;
+            this.cliente = cli;
+            this.largoCola = largoC;
+            this.reparador1 = rep1;
+            this.reparador2 = rep2;
+            this.reparador3 = rep3;
+            this.tiempoEntreLlegada = entre;
+            this.tiempoProximaLlegada = prox;
         
         }
 
@@ -57,7 +57,8 @@ namespace Ejercicio24
                 evento = value;
             }
         }
-        public Cliente Cliente
+        // public Cliente Cliente
+        public int Cliente
         {
             get 
             {
@@ -68,7 +69,7 @@ namespace Ejercicio24
                 cliente = value;
             }
         }
-        public Cliente[] ColaClientes
+        /* public List<Cliente> ColaClientes
         {
             get 
             {
@@ -78,7 +79,7 @@ namespace Ejercicio24
             {
                 colaClientes = value;
             }
-        }
+        }*/ 
         public int LargoCola
         {
             get 

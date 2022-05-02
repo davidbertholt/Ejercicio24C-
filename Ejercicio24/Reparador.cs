@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio24
 {
-    internal class Reparador
+    public class Reparador
     {
     private string estado;
     private int cliente;
