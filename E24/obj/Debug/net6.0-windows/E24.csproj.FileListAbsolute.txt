@@ -1,0 +1,17 @@
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.csproj.AssemblyReference.cache
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.Form1.resources
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.csproj.GenerateResource.cache
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.AssemblyInfo.cs
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\E24\E24\bin\Debug\net6.0-windows\E24.exe
+C:\Users\David\source\repos\E24\E24\bin\Debug\net6.0-windows\E24.deps.json
+C:\Users\David\source\repos\E24\E24\bin\Debug\net6.0-windows\E24.runtimeconfig.json
+C:\Users\David\source\repos\E24\E24\bin\Debug\net6.0-windows\E24.dll
+C:\Users\David\source\repos\E24\E24\bin\Debug\net6.0-windows\E24.pdb
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.dll
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\refint\E24.dll
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.pdb
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\E24.genruntimeconfig.cache
+C:\Users\David\source\repos\E24\E24\obj\Debug\net6.0-windows\ref\E24.dll
